@@ -131,7 +131,7 @@ class App extends Component<{}, ChatState>{
     };
   }
 
-  // Hardcoded for now, each user should have unique colour
+  // TODO: Hardcoded for demo, each user should have unique colour
   getFontColor(author: string) {
     if (author === "Amanda"){
       return "#E4581D"

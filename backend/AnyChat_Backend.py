@@ -101,8 +101,6 @@ async def getChat(data, websocket):
             response["data"] = openChats
             await user.send(json.dumps(response))
 
-        
-
 async def writeMessage(data, websocket):
     # Parse data
     chatName = data[1]
